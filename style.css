@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* .roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* background-image: linear-gradient(35deg,
+      #4d8989,
+      #547472 11%,
+      #408b80 23%,
+      #2c988a 42%,
+      #61afc4 63%,
+      #39a1be 83%,
+      #1b4b5a);
+*/
+
+/* background-image: linear-gradient(35deg,
+      #4d3d89,
+      #545774 11%,
+      #40518b 23%,
+      #2c4a98 42%,
+      #6179c4 63%,
+      #3959be 83%,
+      #331b5a); */
+
+
+body {
+  height: 100vh;
+  padding: 2rem;
+  background-image: linear-gradient(35deg,
+      #4d3d89,
+      #545774 11%,
+      #40518b 23%,
+      #2c4a98 42%,
+      #6179c4 63%,
+      #3959be 83%,
+      #331b5a);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem;
+  padding: 1rem;
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  border-radius: 0.4rem;
+  background-image: linear-gradient(45deg,
+      #4d8989,
+      #547472 11%,
+      #408b80 23%,
+      #2c988a 42%,
+      #61afc4 63%,
+      #39a1be 83%,
+      #1b4b5a);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+}
+
+.my-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.title {
+  text-transform: uppercase;
+  color: aliceblue;
+  margin-top: 2rem;
+  letter-spacing: 0.08rem;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  color: azure;
+  letter-spacing: 0.13rem;
+}
+
+.contacts {
+  display: flex;
+}
+
+.contacts a {
+  text-decoration: none;
+  margin: 1rem;
+  color: azure;
+  width: 2rem;
+}
