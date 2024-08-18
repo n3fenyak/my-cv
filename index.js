@@ -1,4 +1,4 @@
-import data from './data.json' assert {type: 'json'};
+import data from "./data.json" with { type: "json" };
 
 function setTitle() {
   const title = document.getElementById("title");
@@ -6,6 +6,13 @@ function setTitle() {
 }
 
 setTitle();
+
+function setSubtitle() {
+  const subtitle = document.getElementById("subtitle");
+  subtitle.innerText = data.subtitle;
+} 
+
+setSubtitle();
 
 function setContacts() {
   const contacts = document.getElementById("contacts");
@@ -18,7 +25,7 @@ function setContacts() {
   });
 }
 
-setContacts()
+setContacts();
   
 function getSvgByUrl(url) {
   switch (true) {
