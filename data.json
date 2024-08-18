@@ -1,5 +1,5 @@
 {
-  "title": "Nikita Fenyak",
+  "title": "Nikita neFenyak",
   "subtitle": "Frontend Developer",
   "contacts": [
     {
@@ -13,6 +13,14 @@
     {
       "name": "Telegram",
       "url": "http://t.me/nefenyak"
+    }
+  ],
+
+  "photo": [
+    {
+      "name": "photo",
+      "url": "./ava.jpg",
+      "alt": "avatar"
     }
   ]
 }

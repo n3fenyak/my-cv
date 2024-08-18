@@ -60,3 +60,4 @@ function getSvgByUrl(url) {
       break;
   }
 }
+
